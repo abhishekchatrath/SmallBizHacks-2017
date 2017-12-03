@@ -129,6 +129,13 @@ border-radius: 50%;
 width: 5em;
 }
 
+.ActualButtonButNotGold {
+  float: right;
+margin-top: -1.2em;
+color: white;
+background-color: #011A27;
+}
+
 textarea {
   width: auto !important;
 }
