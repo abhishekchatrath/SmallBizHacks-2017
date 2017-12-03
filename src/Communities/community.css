@@ -1,0 +1,15 @@
+.Community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-img {
+    background-image: url("../assets/images/communities_background.jpeg");
+    background-size: cover;
+    height: 600px;
+    /* width: 1440px; */
+    width: 80%;
+
+}
