@@ -8,7 +8,7 @@ import { withStyles } from 'material-ui/styles';
 import './ChannelCards.css';
 
 class ChannelCards extends React.Component {
-    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -23,16 +23,16 @@ class ChannelCards extends React.Component {
         return this.state.channels.map((channel) => {
             const card = (
                 <div key={channel.id} onClick={()=>{let path='/communities/list';
-                history.push(path)}}> 
+                history.push(path)}}>
                     <Card className={classes.card}>
                         <div style={ {height: 10, width: "auto"} }></div>
-                        <CardMedia 
+                        <CardMedia
                             className={classes.media}
                             image={channel.imagelink}
                             title={channel.channelname}/>
                         <CardContent>
                             <Typography type="headline" component="h2">
-                                {channel.channelname}
+                               {channel.channelname}
                             </Typography>
                         </CardContent>
                     </Card>
