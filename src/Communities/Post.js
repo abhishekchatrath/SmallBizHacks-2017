@@ -34,7 +34,7 @@ class Post extends React.Component {
             <div className="mdl-cell mdl-cell--8-col content">
                 <div className="contentDiv">
                     <div className="contenttittle">
-                        MY SUPPLIER COND ME
+                        Bad Experience with supplier. Anybody have any recommendations?
                     </div>
                     <div className="contentbody">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul
@@ -51,13 +51,12 @@ class Post extends React.Component {
             <div className='CommentsContainer'>
 
             <div className='ProfilePicContainer'>
-            <input type="image" src={dudeone} className="CircleButton"/>
+            <input type="image" src={dudethree} className="CircleButton"/>
             </div>
 
               <div className='CommentsContent'>
               <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vul
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+              Hey! I know a guy. You can reach out to him at @FriendlyNeighbourhoodSupplier. He is really great. Been a customer for years and never once missed a delivery.
               </p>
               </div>
               <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect ActivatedButton">
@@ -85,7 +84,7 @@ class Post extends React.Component {
             <div className='CommentsContainer'>
 
             <div className='ProfilePicContainer'>
-            <input type="image" src={dudethree} className="CircleButton"/>
+            <input type="image" src={dudeone} className="CircleButton"/>
             </div>
 
               <div className='CommentsContent'>
