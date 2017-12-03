@@ -1,11 +1,14 @@
 .Post{
     background-color: #F5F5F5;
+    width: 85%;
+    margin: auto;
+    margin-top: 3em;
 }
 .postheader{
     height: 100px;
     line-height: 90px;
     text-align: center;
-    font-family : AcuminPro Bold;
+    /*font-family : AcuminPro Bold; */
     font-weight : bold;
     font-size : 38px;
     letter-spacing : 3.4px;
@@ -20,10 +23,10 @@
 }
 .userdetail{
     text-align: center;
-    
+
 }
 .userfield{
-    font-family : Myriad Pro;
+  /*  font-family : Myriad Pro; */
     font-size : 17px;
     letter-spacing : 3.4px;
     background-color : #f2f2f2 ;
@@ -31,7 +34,7 @@
     width: 230px;
     margin-top: 13px;
     margin-bottom: 13px;
-    
+
 }
 .Profilepic{
     display: block;
@@ -46,11 +49,12 @@
     margin-bottom: 15px;
 }
 .contentDiv{
-    background-color : #EAE6E6 ;
-    padding: 10px;
+  background-color: #EAE6E6;
+  padding: 10px;
+  width: 120%;
 }
 .contenttittle{
-    font-family : AcuminPro Bold;
+    /*font-family : AcuminPro Bold;*/
     font-weight : bold;
     font-size : 20px;
     letter-spacing : 8px;
@@ -58,14 +62,73 @@
 }
 
 .contentbody{
-    font-family : Myriad Pro;
-    font-size : 17px;
-    letter-spacing : 3.4px;
-    color : rgb(47, 47, 47);
-    margin: 20px;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: rgb(47, 47, 47);
+  margin: 20px;
+  margin-left: 35px;
 }
 .useinfo{
     display: block;
     margin: auto;
     width: 230px;
+}
+
+.CommentsContainer {
+    margin-top: 4em;
+    padding: 10px;
+    width: 120%;
+}
+
+.CommentsContent {
+  background-color : #EAE6E6 ;
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+}
+
+.ActivatedButton {
+  float: right;
+margin-top: -1.2em;
+color: white;
+background-color: #E6DF50;
+}
+
+.CircleButton {
+  width: 16em;
+height: 16em;
+border-radius: 50%;
+}
+
+.ProfilePicContainer {
+  width: 50%;
+    /* float: left; */
+    /* margin-top: 2em; */
+    margin-right: 12em;
+    position: absolute;
+    left: 27em;
+}
+
+.Button {
+  display: flex;
+  align-items: center;
+  margin-left: 23em;
+
+}
+
+.FormContainer {
+  display: inline-flex;
+  margin-top: 4em;
+  margin-left: 1em;
+}
+
+.ActualButton {
+  border-radius: 25%;
+  background-color: #011A27;
+  color: white;
+  height: 4em;
+width: 5em;
+}
+
+textarea {
+  width: auto !important;
 }
