@@ -1,0 +1,84 @@
+.background {
+  background-color: #011A27;
+}
+
+.yellowheader {
+  color: #E6DF44;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.biocontainer {
+  width: 75%;
+  margin: auto;
+}
+
+.profilebio {
+  color: white;
+  text-align: left;
+  font-size: 75%;
+  white-space: pre-wrap;
+}
+
+.margin {
+  margin-left: 40px;
+margin-top: 30px;
+}
+
+.MuiGrid-spacing-xs-24-23 > .MuiGrid-typeItem-2 {
+  padding: 0px;
+}
+
+.tagcontainer {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.quicklinkscontainer {
+  width: 75%;
+  padding-top: 20px;
+  margin: auto;
+  color: white;
+}
+
+.profiledetailcontainer {
+  background-color: #F5F5F5;
+}
+
+.mycommunitiescontainer {
+  text-align: center;
+}
+
+.CommunityAvatar {
+  height: 100;
+  width: 100;
+}
+
+.MuiAvatar-img-10 {
+  border-radius: 50%;
+height: -webkit-fill-available;
+
+}
+
+.demo-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: url('https://www.yireo.com/images/stories/joomla/whitepage.png') center / cover;
+}
+.demo-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.demo-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
