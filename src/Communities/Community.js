@@ -1,6 +1,9 @@
 import React from 'react';
 import Tabs, {Tab} from 'material-ui/Tabs';
 import AppBar from 'material-ui/AppBar';
+import backImg from '../assets/images/communities_background.jpeg'
+import ChannelCards from './ChannelCards';
+import './community.css';
 
 class Community extends React.Component {
 
@@ -26,7 +29,7 @@ class Community extends React.Component {
             const channels = Object.entries(res)
                 .filter((channel) => channel[0] < 9)
                 .map((channel) => {
-                    return channel[1].channelname;
+                    return channel[1];
                 });
             this.setState({generalChannels: channels});
         });
@@ -36,9 +39,9 @@ class Community extends React.Component {
         .then((res) => res.json())
         .then((res) => {
             const channels = Object.entries(res)
-                .filter((channel) => channel[0] < 9)
+                .filter((channel) => channel[0] < 7)
                 .map((channel) => {
-                    return channel[1].channelname;
+                    return channel[1];
                 });
             this.setState({specializedChannels: channels});
         });
@@ -46,8 +49,8 @@ class Community extends React.Component {
 
     render() {
         const {value} = this.state;
-        const general = this.state.generalChannels;
-        const specialized = this.state.specializedChannels;
+        // const general = this.state.generalChannels;
+        // const specialized = this.state.specializedChannels;
         // console.log(general);
         // console.log(specialized);
         return (
@@ -68,8 +71,10 @@ class Community extends React.Component {
                     <Tab label="Specialized" value="Specialized"/>
                 </Tabs>
 
-                {value === "General" && <div>{general}</div>}
-                {value === "Specialized" && <div>{specialized}</div>}
+                {/* {value === "General" && <div>{general}</div>} */}
+                {value === "General" && <ChannelCards channels={this.state.generalChannels} />}
+                {/* {value === "Specialized" && <div>{specialized}</div>} */}
+                {value === "Specialized" && <ChannelCards channels={this.state.specializedChannels} />}
 
             </div>
         );

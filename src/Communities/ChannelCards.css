@@ -1,0 +1,21 @@
+.ChannelCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: "space-evenly";
+
+    height: 1000px;
+    /* width: 1600px; */
+    width: 80%;
+    
+    background-color: #F5F5F5;
+    /* 2F2F2F
+    F2F2F2
+    F5F5F5 */
+
+}
+
+.ChannelCards img {
+    margin: 30px !important;
+}

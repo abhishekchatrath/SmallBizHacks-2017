@@ -9,6 +9,12 @@ import PostList from '../Communities/ListofPosts.js'
 import {Route,Redirect} from 'react-router-dom';
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props);
+
+   
+}
+
   render() {
     return(
       <main className="mdl-layout__content">
