@@ -86,6 +86,7 @@ class PostList extends React.Component {
                     <div className="useinfo" style={{textAlign: 'left'}}>
                       <h5> FILTERS </h5>
                       <div style={{backgroundColor: '#EAE6E6', height :'20em', marginTop: '9%'}}>
+                        <div className="towrap">
                         <span className='checkmarks'>
                         <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input" checked />
                         <span className="mdl-checkbox__label">Newer</span>
@@ -100,6 +101,7 @@ class PostList extends React.Component {
                         <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input" checked />
                         <span className="mdl-checkbox__label">Trending</span>
                         </label>
+                        </div>
                         </div>
                     </div>
                 </div>

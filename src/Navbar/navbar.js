@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import './navbar.css'
-
+import logo from './logo.png';
 
 class Navbar extends Component{
 
@@ -39,7 +39,9 @@ class Navbar extends Component{
     return (
       <header className="mdl-layout__header ctnr">
         <div className="mdl-layout__header-row ctnr">
-          <span className="mdl-layout-title">Title</span>
+          <span className="mdl-layout-title">
+          <img className="logo" src={logo} width="120" height="30"/>
+          </span>
           <div className="mdl-layout-spacer"></div>
           <nav className="mdl-navigation mdl-layout--large-screen-only">
               
@@ -67,7 +69,10 @@ class Navbar extends Component{
               <a 
                 className={"mdl-navigation__link " + ctnr.searchicon} 
                 href=""
-              >searchicon</a>
+              >
+              <i className="material-icons">search</i>
+
+              </a>
 
             </nav>           
         </div>
