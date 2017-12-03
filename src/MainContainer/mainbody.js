@@ -1,6 +1,7 @@
 import React  from 'react';
 import './mainbody.css'
 import Profile from '../Profile/profile.js'
+import Post from '../Communities/Post.js'
 import {Route,Redirect} from 'react-router-dom';
 class Main extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class Main extends React.Component {
           <Route exact path="/" render={ () => <Redirect to="/home" />} />
           <Route path="/home" render={ () => <Profile/> } />
           <Route path="/profile" render={ () => <Profile/> } />
-          <Route path="/communities" render={ () => <Profile/> } />
+          <Route path="/communities" render={ () => <Post/> } />
           <Route path="/awards" render={ () => <Profile/> } />
 
         </div>
