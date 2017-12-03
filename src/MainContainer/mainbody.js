@@ -5,6 +5,7 @@ import Profile from '../Profile/profile.js'
 import Community from '../Communities/Community'
 import Awards from '../Awards/Awards';
 import Post from '../Communities/Post.js'
+import PostList from '../Communities/ListofPosts.js'
 import {Route,Redirect} from 'react-router-dom';
 
 class Main extends React.Component {
@@ -24,6 +25,7 @@ class Main extends React.Component {
           <Route exact path="/communities" render={ () => <Community/> } />
           <Route exact path="/communities/post" render={ () => <Post username="JD" job="software developer"/> } />
           <Route path="/awards" render={ () => <Awards/> } />
+          <Route path='/communities/list' render={() => <PostList />}/>
 
         </div>
       </main>

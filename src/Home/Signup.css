@@ -17,3 +17,8 @@ button.REGISTER {
   padding-left: 4em;
     padding-right: 4em;
 }
+
+a {
+  color: white;
+text-decoration: none;
+}
