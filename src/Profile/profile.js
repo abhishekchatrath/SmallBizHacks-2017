@@ -65,7 +65,7 @@ class Profile extends React.Component {
             <img src="https://previews.123rf.com/images/kurhan/kurhan1303/kurhan130300441/18452175-Car-mechanic-working-in-auto-repair-service-Stock-Photo.jpg" style={{borderRadius: '50%'}} width='200' height='200'/>
             <p style={{color: '#1098DE'}}>Auto Shops</p>
             </div>
-            <div classNmae='CommunityCards'>
+            <div className='CommunityCards'>
             <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored AddButton">
               <i className="material-icons">add</i>
                 </button>
