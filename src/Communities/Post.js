@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Post.css';
 
-import dudeone from './B&WDude.jpg';
+import dudeone from './BnWDude.jpg';
 import dudetwo from './MaddieAsADude.jpg';
 import dudethree from './OnPointBeard.jpg';
 
@@ -76,7 +76,7 @@ class Post extends React.Component {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
               </p>
               </div>
-              <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect ActivatedButton">
+              <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect ActualButtonButNotGold">
                 <i className="material-icons">star_rate</i>
                 </button>
             </div>
@@ -93,7 +93,7 @@ class Post extends React.Component {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
               </p>
               </div>
-              <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect ActivatedButton">
+              <button className="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect ActualButtonButNotGold">
                 <i className="material-icons">star_rate</i>
                 </button>
             </div>
