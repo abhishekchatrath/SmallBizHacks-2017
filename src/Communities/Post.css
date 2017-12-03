@@ -75,9 +75,10 @@
 }
 
 .CommentsContainer {
-    margin-top: 4em;
+    margin-top: 1em;
     padding: 10px;
     width: 120%;
+    margin-bottom: 2em;
 }
 
 .CommentsContent {
@@ -99,10 +100,14 @@ height: 16em;
 border-radius: 50%;
 }
 
+.CircleButton:hover {
+  opacity: 0.6;
+}
+
 .ProfilePicContainer {
   width: 50%;
     /* float: left; */
-    /* margin-top: 2em; */
+   margin-top: -1em;
     margin-right: 12em;
     position: absolute;
     left: 27em;

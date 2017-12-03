@@ -46,6 +46,7 @@ class Post extends React.Component {
 
 
             </div>
+            <div style={{marginTop: '5em'}}>
             <h5> COMMENTS </h5>
             <div className='CommentsContainer'>
 
@@ -102,7 +103,7 @@ class Post extends React.Component {
 
             <form className='FormContainer'>
             <div className="mdl-textfield mdl-js-textfield">
-            <textarea className="mdl-textfield__input" type="text" rows= "2" cols='67' id="sample5" placeholder="Comments"></textarea>
+            <textarea className="mdl-textfield__input" type="text" rows= "2" cols='67' id="sample5" placeholder="Post a comment"></textarea>
             </div>
             <div className='Button'>
             <button className='ActualButton'>
@@ -114,7 +115,7 @@ class Post extends React.Component {
             </div>
 
         </div>
-
+</div>
     </div>
    </div>
     )
