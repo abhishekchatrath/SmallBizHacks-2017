@@ -15,7 +15,8 @@ class Main extends React.Component {
           <Route exact path="/" render={ () => <Redirect to="/home" />} />
           <Route path="/home" render={ () => <Home/> } />
           <Route path="/profile" render={ () => <Profile/> } />
-          <Route path="/communities" render={ () => <Community/> } />
+          <Route exact path="/communities" render={ () => <Community/> } />
+          <Route exact path="/communities/post" render={ () => <Post username="JD" job="software developer"/> } />
           <Route path="/awards" render={ () => <Awards/> } />
 
         </div>
