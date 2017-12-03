@@ -14,7 +14,7 @@ class Home extends React.Component {
     render() {
         return (
           <div>
-          <img src={StarryNight} height="800" width="1500" />
+          <img src={StarryNight} height="1080" width="1920" className='fill'/>
           <div className='Headings'>
           <p className='NormalCharacterStyle'>find your community</p>
           <p className='NormalCharacterStyle'>grow your business</p>
