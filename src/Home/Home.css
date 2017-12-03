@@ -1,0 +1,68 @@
+.NormalCharacterStyle
+{
+ font-family : Acumin Pro;
+ font-weight : bold;
+ font-size : 36px;
+ letter-spacing : 14.4px;
+ color : #FFFFFF ;
+ color : rgb(255, 255, 255);
+}
+.Home {
+  color: white;
+  position: absolute;
+    top: 0;
+    left: 50;
+    right: 0;
+    left: 42%;
+    top: 30%;
+    background-color: #011827;
+    opacity: 0.6;
+    width: max-content;
+    padding: 30px 30px 30px 30px;
+}
+
+
+.Headings {
+  position: absolute;
+    top: 130px;
+    left: 36%;
+    right: 50%;
+    width: fit-content;
+}
+.NormalCharacterStyle4
+{
+ font-family : Adefebia Free Font;
+ font-size : 44px;
+ line-height : 65px;
+ letter-spacing : 4.4px;
+ color : #FFFFFF ;
+ color : rgb(255, 255, 255);
+}
+
+.NormalCharacterStyle3
+{
+ font-family : Acumin Pro;
+ font-weight : bold;
+ font-size : 20px;
+ letter-spacing : 8px;
+ color : #F2F2F2 ;
+ color : rgb(242, 242, 242);
+}
+.NormalCharacterStyle2
+{
+ font-family : Acumin Pro;
+ font-weight : bold;
+ font-size : 20px;
+ letter-spacing : 8px;
+ color : #FFFFFF ;
+ color : rgb(255, 255, 255);
+}
+.NormalCharacterStyle1
+{
+ font-family : Acumin Pro;
+ font-weight : bold;
+ font-size : 20px;
+ letter-spacing : 8px;
+ color : #FFFFFF ;
+ color : rgb(255, 255, 255);
+}

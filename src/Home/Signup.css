@@ -1,0 +1,19 @@
+input {
+  padding: 10px !important;
+  border-bottom: 3px solid white !important;
+}
+
+button.REGISTER {
+  border: 2px solid white !important;
+  color: white !important;
+  margin-right: 10px !important;
+  padding-left: 4em;
+    padding-right: 4em;
+}
+.loggin {
+  border: 2px solid white !important;
+  color: white !important;
+  margin-right: 0 !important;
+  padding-left: 4em;
+    padding-right: 4em;
+}
