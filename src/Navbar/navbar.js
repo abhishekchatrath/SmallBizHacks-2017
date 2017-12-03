@@ -46,21 +46,21 @@ class Navbar extends Component{
               <a 
                 className={"mdl-navigation__link " + ctnr.profile} 
                 id= "profile" 
-                href="http://localhost:3000/profile" 
+                /* href="http://localhost:3000/profile"  */
                 onClick={()=>this.props.selectPage("profile")}
               >PROFILE</a>
 
               <a 
                 className={"mdl-navigation__link " + ctnr.communities} 
                 id = "communities" 
-                href="http://localhost:3000/communities" 
+                /* href="http://localhost:3000/communities"  */
                 onClick={()=>this.props.selectPage("communities")}
               >COMMUNITIES</a>
 
               <a 
                 className={"mdl-navigation__link " + ctnr.awards} 
                 id = "awards" 
-                href="http://localhost:3000/communities/post" 
+                /* href="http://localhost:3000/communities/post"  */
                 onClick={()=>this.props.selectPage("awards")}
               >AWARDS</a>
 

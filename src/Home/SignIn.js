@@ -23,7 +23,7 @@ class SignIn extends React.Component {
               <button className="mdl-button mdl-js-button mdl-js-ripple-effect REGISTER">
                 REGISTER
               </button>
-              <button className="mdl-button mdl-js-button mdl-js-ripple-effect loggin">
+              <button className="mdl-button mdl-js-button mdl-js-ripple-effect loggin" href="http://localhost:3000/communities" >
                 LOG IN
                 </button>
                 </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/navbar.js';
 import Main from './mainbody.js';
-
+import history from '../history.js'
 class StateContainer extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +12,8 @@ class StateContainer extends Component {
     }
 
     selectPage=(p)=>{
+        let path = '/'+p;
+        history.push(path);
         console.log("I am here at the selectPage");
         this.setState({
             currentPage: p,
