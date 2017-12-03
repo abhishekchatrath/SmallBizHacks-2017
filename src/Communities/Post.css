@@ -1,3 +1,33 @@
 .Post{
-    
+    background-color: #F5F5F5;
+}
+.postheader{
+    height: 100px;
+    line-height: 90px;
+    text-align: center;
+    font-family : AcuminPro Bold;
+    font-weight : bold;
+    font-size : 37px;
+    letter-spacing : 3.4px;
+    color : #2F2F2F ;
+    color : rgb(47, 47, 47);
+    background-color: #F5F5F5;
+    border: 0;
+    box-shadow: none !important;
+}
+.major{
+    display: flex !important;
+}
+.Profilepic{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.profilepic{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.content{
+
 }
