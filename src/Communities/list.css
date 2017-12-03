@@ -3,3 +3,26 @@
   width: 100%;
   background-color: #EAE6E6;
 }
+
+.ActualButton {
+  border-radius: 25%;
+  background-color: #011A27;
+  color: white;
+  height: 4em;
+width: 5em;
+}
+
+.AddPostButtonContainer {
+  text-align: -webkit-right;
+    margin-right: -41%;
+    margin-bottom: 1.5em;
+}
+
+.checkboxcontainer {
+  width: 70%;
+    margin-left: 12%;
+}
+
+.MuiDialog-paperWidthSm-11 {
+  max-width: none !important;
+}
