@@ -5,7 +5,7 @@ import classNames from 'classnames';
 import { withStyles } from 'material-ui/styles';
 import Avatar from 'material-ui/Avatar';
 
-import pic from './Ava_Resize.jpg'
+import pic from './BnWDude.jpg'
 
 const styles = {
   row: {
@@ -37,8 +37,8 @@ class Profile extends React.Component {
           <img src={pic} width="100%" height="300"/>
           </div>
           <div>
-          <h4 className='yellowheader'>FEM MECHANICS</h4>
-          <h4 className='yellowheader'>AVA LOVELACE</h4>
+          <h4 className='yellowheader'>BARBER</h4>
+          <h4 className='yellowheader'>ADAM KING</h4>
           </div>
 
           <div className='biocontainer'>
@@ -52,8 +52,8 @@ class Profile extends React.Component {
           </p>
           </div>
           <div className='tagcontainer'>
-            <Chip label="Auto Shops" style={{margin: '5px 5px 5px 5px'}}/>
-            <Chip label="Cars" style={{margin: '5px 5px 5px 5px'}}/>
+            <Chip label="Barbers" style={{margin: '5px 5px 5px 5px'}}/>
+            <Chip label="Saloons" style={{margin: '5px 5px 5px 5px'}}/>
           </div>
         </div>
 
@@ -62,8 +62,8 @@ class Profile extends React.Component {
             <h5> <b>MY COMMUNITIES</b> </h5>
             <div className="CommunitiesList">
             <div className='CommunityCards'>
-            <img src="https://previews.123rf.com/images/kurhan/kurhan1303/kurhan130300441/18452175-Car-mechanic-working-in-auto-repair-service-Stock-Photo.jpg" style={{borderRadius: '50%'}} width='200' height='200'/>
-            <p style={{color: '#1098DE'}}>Auto Shops</p>
+            <img src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" style={{borderRadius: '50%'}} width='200' height='200'/>
+            <p style={{color: '#1098DE'}}>Barbers</p>
             </div>
             <div classNmae='CommunityCards'>
             <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored AddButton">
