@@ -1,5 +1,6 @@
 import React from 'react';
 import './Signup.css';
+import history from '../history.js'
 
 class SignIn extends React.Component {
 
@@ -24,7 +25,9 @@ class SignIn extends React.Component {
                 REGISTER
               </button>
               <button className="mdl-button mdl-js-button mdl-js-ripple-effect loggin">
-                <a href="http://localhost:3000/profile">LOG IN</a>
+                <a onClick={()=>{let path='/communities'; 
+                          history.push(path);
+                        }}>LOG IN</a>
                 </button>
                 </div>
                 </form>
