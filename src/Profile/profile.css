@@ -94,11 +94,7 @@ height: -webkit-fill-available;
     width: 10em;
     height: 10em;
   }
-.CircleButton {
-  width: 10em;
-height: 10em;
-border-radius: 50%;
-}
+
 
 .CommunitiesList {
   display: inline;
@@ -154,4 +150,11 @@ hr {
 .CommunityCards {
   width: 30%;
   display: inline-block;
+}
+
+.CircleButton {
+border-radius: 50%;
+}
+.ProfilePicContainer {
+  width: 50%;
 }

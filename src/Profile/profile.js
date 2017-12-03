@@ -52,9 +52,8 @@ class Profile extends React.Component {
           </p>
           </div>
           <div className='tagcontainer'>
-            <Chip label="Barbershop" style={{margin: '5px 5px 5px 5px'}}/>
-            <Chip label="Garage" style={{margin: '5px 5px 5px 5px'}}/>
-            <Chip label="Brewery" style={{margin: '5px 5px 5px 5px'}}/>
+            <Chip label="Auto Shops" style={{margin: '5px 5px 5px 5px'}}/>
+            <Chip label="Cars" style={{margin: '5px 5px 5px 5px'}}/>
           </div>
         </div>
 
@@ -63,29 +62,14 @@ class Profile extends React.Component {
             <h5> <b>MY COMMUNITIES</b> </h5>
             <div className="CommunitiesList">
             <div className='CommunityCards'>
-            <input type="image" src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" className="CircleButton"/>
-            <p style={{color: '#1098DE'}}>BARBER</p>
-            </div>
-            <div className='CommunityCards'>
-            <input type="image" src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" className="CircleButton"/>
-            <p style={{color: '#1098DE'}}>BARBER</p>
-            </div>
-            <div className='CommunityCards'>
-            <input type="image" src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" className="CircleButton"/>
-            <p style={{color: '#1098DE'}}>BARBER</p>
-            </div>
-            <div className='CommunityCards'>
-            <input type="image" src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" className="CircleButton"/>
-            <p style={{color: '#1098DE'}}>BARBER</p>
-            </div>
-            <div className='CommunityCards'>
-            <input type="image" src="http://farzadsbarbershop.com/wp-content/uploads/2016/11/f1.jpg" className="CircleButton"/>
-            <p style={{color: '#1098DE'}}>BARBER</p>
+            <img src="https://previews.123rf.com/images/kurhan/kurhan1303/kurhan130300441/18452175-Car-mechanic-working-in-auto-repair-service-Stock-Photo.jpg" style={{borderRadius: '50%'}} width='200' height='200'/>
+            <p style={{color: '#1098DE'}}>Auto Shops</p>
             </div>
             <div classNmae='CommunityCards'>
             <button className="mdl-button mdl-js-button mdl-button--fab mdl-button--colored AddButton">
               <i className="material-icons">add</i>
                 </button>
+                <p style={{color: '#1098DE'}}>Add Content</p>
                 </div>
             </div>
 
@@ -101,41 +85,13 @@ class Profile extends React.Component {
                   </span>
                   <br />
                   <span className="mdl-list__item-secondary-content newLine">
-                  <button className="mdl-button mdl-js-button mdl-js-ripple-effect">
-                    Read More
-                  </button>
+                  <a className='mdl-button mdl-js-button mdl-button--primary'>
+                  Read More
+                  </a>
                   </span>
                 </li>
                 <hr />
-                  <li className="mdl-list__item mdl-list__item--three-line alignLiText">
-                    <span className="mdl-list__item-primary-content listbody">
-                        <span>Title One</span>
-                          <span className="mdl-list__item-text-body">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar. Mauris felis dolor, maximus eget odio nec, ullamcorper commodo nulla. Phasellus fringilla sem eu enim ullamcorper dignissim.
-                          </span>
-                      </span>
-                      <br />
-                      <span className="mdl-list__item-secondary-content newLine">
-                      <button className="mdl-button mdl-js-button mdl-js-ripple-effect">
-                        Read More
-                      </button>
-                      </span>
-                    </li>
-                    <hr />
-                      <li className="mdl-list__item mdl-list__item--three-line alignLiText">
-                        <span className="mdl-list__item-primary-content listbody">
-                            <span>Title One</span>
-                              <span className="mdl-list__item-text-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar. Mauris felis dolor, maximus eget odio nec, ullamcorper commodo nulla. Phasellus fringilla sem eu enim ullamcorper dignissim.
-                              </span>
-                          </span>
-                          <br />
-                          <span className="mdl-list__item-secondary-content newLine">
-                          <button className="mdl-button mdl-js-button mdl-js-ripple-effect">
-                            Read More
-                          </button>
-                          </span>
-                        </li>
+
                 </ul>
             </div>
           </div>
