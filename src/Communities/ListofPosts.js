@@ -26,16 +26,26 @@ class AddPostForm extends React.Component {
             </div>
             </div>
             <div className='mdl-grid'>
-            <div className='RadioButtonContainer mdl-cell mdl-cel--4-col'>
-              <input type='radio' />
-              <input type='radio' />
-              <input type='radio' />
+            <div className='RadioButtonContainer mdl-cell mdl-cell--4-col'>
+              <input type='radio' />Lorem
+              <br />
+              <input type='radio' />Lorem
+              <br />
+              <input type='radio' />Lorem
             </div>
-            <div className='TagsContainer mdl-cell mdl-cel--4-col'>
+            <div className='TagsContainer mdl-cell mdl-cell--4-col'>
             <span style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
             <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
             <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/> </span>
             </div>
+          </div>
+
+          <div className='mdl-grid'>
+          <div>
+          <button className="ActualButton" onClick={this.handleRequestClose}>
+            <i className="material-icons">add</i>
+          </button>
+          </div>
           </div>
 
 
@@ -76,17 +86,17 @@ class PostList extends React.Component {
                     <div className="useinfo" style={{textAlign: 'left'}}>
                       <h5> FILTERS </h5>
                       <div style={{backgroundColor: '#EAE6E6', height :'20em', marginTop: '9%'}}>
-                        <label>
+                        <span className='checkmarks'>
                         <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input" checked />
                         <span className="mdl-checkbox__label">Newer</span>
-                        </label>
+                        </span>
                         <br />
-                        <label>
+                        <label className='checkmarks'>
                         <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input" checked />
                         <span className="mdl-checkbox__label">Older</span>
                         </label>
                         <br />
-                        <label>
+                        <label className='checkmarks'>
                         <input type="checkbox" id="checkbox-1" className="mdl-checkbox__input" checked />
                         <span className="mdl-checkbox__label">Trending</span>
                         </label>
@@ -105,14 +115,13 @@ class PostList extends React.Component {
                     <div style={{width: '56em', marginBottom: '3em'}}>
                     <div className="demo-card-square mdl-card mdl-shadow--0dp nominheight">
                     <div className="mdl-card__title" style={{display: 'block'}}>
-                    <h2 className="mdl-card__title-text">Best Mushroom Supplier in Toronto?</h2>
-                    <span style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
+                    <h2 className="mdl-card__title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar.</h2>
+                    <span className='spansandstuff' style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/> </span>
                     </div>
                       <div className="mdl-card__supporting-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aenan convallis.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar. Mauris felis dolor, maximus eget odio nec, ullamcorper commodo nulla. Phasellus fringilla sem eu enim ullamcorper dignissim. Sed auctor erat quis justo elementum pharetra eu a est. Duis ac nisi nisl.
                       </div>
                       <div className="mdl-card__actions mdl-card--border" style={{textAlign: 'right', color: 'black'}}>
                       <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://localhost:3000/communities/post">
@@ -125,14 +134,13 @@ class PostList extends React.Component {
                     <div style={{width: '56em', marginBottom: '3em'}}>
                     <div className="demo-card-square mdl-card mdl-shadow--0dp nominheight">
                     <div className="mdl-card__title" style={{display: 'block'}}>
-                    <h2 className="mdl-card__title-text">Some vendors in Toronto </h2>
-                    <span style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
+                    <h2 className="mdl-card__title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar.</h2>
+                    <span className='spansandstuff' style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/> </span>
                     </div>
                       <div className="mdl-card__supporting-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aenan convallis.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar. Mauris felis dolor, maximus eget odio nec, ullamcorper commodo nulla. Phasellus fringilla sem eu enim ullamcorper dignissim. Sed auctor erat quis justo elementum pharetra eu a est. Duis ac nisi nisl.
                       </div>
                       <div className="mdl-card__actions mdl-card--border" style={{textAlign: 'right', color: 'black'}}>
                       <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://localhost:3000/communities/post">
@@ -145,14 +153,13 @@ class PostList extends React.Component {
                     <div style={{width: '56em', marginBottom: '3em'}}>
                     <div className="demo-card-square mdl-card mdl-shadow--0dp nominheight">
                     <div className="mdl-card__title" style={{display: 'block'}}>
-                    <h2 className="mdl-card__title-text">My Supplier cond me</h2>
-                    <span style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
+                    <h2 className="mdl-card__title-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar.</h2>
+                    <span className='spansandstuff' style={{display: 'flex'}}> <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/>
                     <Chip label="Lorem" style={{margin: '5px 5px 5px 5px'}}/> </span>
                     </div>
                       <div className="mdl-card__supporting-text">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Aenan convallis.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas facilisis pulvinar. Mauris felis dolor, maximus eget odio nec, ullamcorper commodo nulla. Phasellus fringilla sem eu enim ullamcorper dignissim. Sed auctor erat quis justo elementum pharetra eu a est. Duis ac nisi nisl.
                       </div>
                       <div className="mdl-card__actions mdl-card--border" style={{textAlign: 'right', color: 'black'}}>
                       <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="http://localhost:3000/communities/post">

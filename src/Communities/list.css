@@ -26,3 +26,46 @@ width: 5em;
 .MuiDialog-paperWidthSm-11 {
   max-width: none !important;
 }
+
+.MuiDialog-paper-9 {
+  max-height: none !important;
+  background-color: #011827 !important;
+  color: white !important;
+}
+.MuiTypography-title-107 {
+  color: white !important;
+}
+.MuiTypography-title-53{
+  color: white !important;
+}
+
+.RadioButtonContainer{
+  margin-left: -42%;
+    margin-right: 42%;
+    /* background-color: white; */
+    /* color: black; */
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    width: 58%;
+}
+.TagsContainer {
+  background: white;
+margin-left: -31%;
+width: 70%;
+}
+
+.buttonRow {
+  margin-left: 86%;
+margin-bottom: 2%;
+}
+
+.spansandstuff {
+  display: flex;
+margin-top: 2%;
+}
+
+.checkmarks {
+  margin-left: 6%;
+}
