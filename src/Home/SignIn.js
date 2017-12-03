@@ -1,4 +1,5 @@
 import React from 'react';
+import './Signup.css';
 
 class SignIn extends React.Component {
 
@@ -11,8 +12,22 @@ class SignIn extends React.Component {
     render() {
         return (
             <div className="SignIn">
-                <p>Login</p>
-                <p>Password</p>
+            <form action="#">
+              <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input className="mdl-textfield__input" type="text" id="sample3" placeholder="Username" />
+                <br />
+                <input className="mdl-textfield__input" type="text" id="sample3" placeholder="Password" />
+
+              </div>
+              <div>
+              <button className="mdl-button mdl-js-button mdl-js-ripple-effect REGISTER">
+                REGISTER
+              </button>
+              <button className="mdl-button mdl-js-button mdl-js-ripple-effect loggin">
+                LOG IN
+                </button>
+                </div>
+                </form>
             </div>
         );
     };
