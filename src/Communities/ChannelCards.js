@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
-
+import history from '../history.js'
 import Typography from 'material-ui/Typography';
 import { withStyles } from 'material-ui/styles';
 
@@ -22,7 +22,8 @@ class ChannelCards extends React.Component {
 
         return this.state.channels.map((channel) => {
             const card = (
-                <div key={channel.id}>
+                <div key={channel.id} onClick={()=>{let path='/communities/list';
+                history.push(path)}}> 
                     <Card className={classes.card}>
                         <div style={ {height: 10, width: "auto"} }></div>
                         <CardMedia 
