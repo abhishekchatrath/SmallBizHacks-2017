@@ -1,0 +1,5 @@
+.nominheight {
+  min-height: 0px !important;
+  width: 100%;
+  background-color: #EAE6E6;
+}
