@@ -25,7 +25,7 @@ class Post extends React.Component {
                 <div className="useinfo">
                     <img className="profilepic" src='https://static.pexels.com/photos/220453/pexels-photo-220453.jpeg' alt='' width="100" />
                     <div className="userfield">
-                        {ADAM KING
+                        ADAM KING
                     </div>
                     <div className="userfield">
                         BARBER
