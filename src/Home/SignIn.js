@@ -24,7 +24,7 @@ class SignIn extends React.Component {
                 REGISTER
               </button>
               <button className="mdl-button mdl-js-button mdl-js-ripple-effect loggin">
-                LOG IN
+                <a href="http://localhost:3000/profile">LOG IN</a>
                 </button>
                 </div>
                 </form>
