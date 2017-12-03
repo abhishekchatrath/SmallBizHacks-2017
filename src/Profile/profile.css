@@ -24,12 +24,16 @@
 }
 
 .margin {
-  margin-left: 40px;
+  margin-left: 60px;
 margin-top: 30px;
 }
 
 .MuiGrid-spacing-xs-24-23 > .MuiGrid-typeItem-2 {
   padding: 0px;
+}
+.MuiAvatar-img-13 {
+  height: 10em !important;
+  width: 10em !important;
 }
 
 .tagcontainer {
@@ -81,4 +85,73 @@ height: -webkit-fill-available;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+
+.avatar {
+    margin: 5;
+  }
+  .bigAvatar {
+    width: 10em;
+    height: 10em;
+  }
+.CircleButton {
+  width: 10em;
+height: 10em;
+border-radius: 50%;
+}
+
+.CommunitiesList {
+  display: inline;
+}
+
+.alignLiText{
+  text-align: left !important;
+}
+
+.crop {
+  width: 100%;
+height: 308px;
+overflow: hidden;
+}
+
+.crop img {
+  width: 100%;
+  height: 300px;
+  margin: -15px 0 0 0px;
+}
+
+.mdl-cell--6-col, .mdl-cell--6-col-desktop.mdl-cell--6-col-desktop {
+    width: calc(70% - 16px) !important;
+    margin-left: 0px !important;
+    margin-left:
+}
+
+.mdl-cell--3-col, .mdl-cell--3-col-desktop.mdl-cell--3-col-desktop {
+  width: calc(25% - 16px) !important;
+  margin-right: 0px;
+}
+
+.newLine {
+  margin-top: 5em;
+margin-right: 2em;
+width: 16em
+}
+
+.listbody {
+  height: auto !important;
+}
+
+hr {
+  width: 92%;
+    margin-left: 1em;
+
+}
+
+.AddButton {
+  background-color: #E6DF50 !important;
+}
+
+.CommunityCards {
+  width: 30%;
+  display: inline-block;
 }
