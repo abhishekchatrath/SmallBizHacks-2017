@@ -13,10 +13,10 @@ class Main extends React.Component {
       <main className="mdl-layout__content">
         <div className="page-content">
           <Route exact path="/" render={ () => <Redirect to="/home" />} />
-          <Route path="/home" render={ () => <Profile/> } />
+          <Route path="/home" render={ () => <Home/> } />
           <Route path="/profile" render={ () => <Profile/> } />
-          <Route path="/communities" render={ () => <Post/> } />
-          <Route path="/awards" render={ () => <Profile/> } />
+          <Route path="/communities" render={ () => <Community/> } />
+          <Route path="/awards" render={ () => <Awards/> } />
 
         </div>
       </main>
