@@ -1,9 +1,6 @@
 import React from 'react';
 import Tabs, {Tab} from 'material-ui/Tabs';
 import AppBar from 'material-ui/AppBar';
-import backImg from '../assets/images/communities_background.jpeg'
-
-import './community.css';
 
 class Community extends React.Component {
 
@@ -55,11 +52,11 @@ class Community extends React.Component {
         // console.log(specialized);
         return (
             <div className="Community">
-                
+
                 <div className="back-img">
                     {/* <img className="back-img" src={backImg} /> */}
                 </div>
-                
+
                 <Tabs
                     value={this.state.value}
                     onChange={this.handleChange}
@@ -70,7 +67,7 @@ class Community extends React.Component {
                     <Tab label="General" value="General" />
                     <Tab label="Specialized" value="Specialized"/>
                 </Tabs>
-                
+
                 {value === "General" && <div>{general}</div>}
                 {value === "Specialized" && <div>{specialized}</div>}
 
