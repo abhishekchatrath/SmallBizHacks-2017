@@ -4,6 +4,7 @@ import './Post.css';
 import dudeone from './BnWDude.jpg';
 import dudetwo from './MaddieAsADude.jpg';
 import dudethree from './OnPointBeard.jpg';
+import ava from './Ava_Resize.jpg';
 
 class Post extends React.Component {
     constructor(props) {
@@ -23,7 +24,7 @@ class Post extends React.Component {
         <div className="mdl-grid major Profilepic">
             <div className="mdl-cell mdl-cell--4-col userdetail">
                 <div className="useinfo">
-                    <img className="profilepic" src='https://static.pexels.com/photos/220453/pexels-photo-220453.jpeg' alt='' width="100" />
+                    <img className="profilepic" src={dudeone} alt='' width="100" />
                     <div className="userfield">
                         ADAM KING
                     </div>
@@ -85,7 +86,7 @@ class Post extends React.Component {
             <div className='CommentsContainer'>
 
             <div className='ProfilePicContainer'>
-            <input type="image" src={dudeone} className="CircleButton"/>
+            <input type="image" src={ava} className="CircleButton"/>
             </div>
 
               <div className='CommentsContent'>
